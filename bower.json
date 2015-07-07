@@ -3,7 +3,10 @@
 	"version": "1.1.0",
 	"homepage": "https://github.com/Hill30/NGScroller.git",
 	"description": "AngularJS infinite scrolling module",
-	"main": "build/scripts/scroll.js",
+	"main": [
+        "src/scripts/ui-scroll.js",
+        "src/scripts/ui-scroll-jqlite.js"
+        ],
 	"keywords": [
 		"ui.scroll",
 		"angularjs",
